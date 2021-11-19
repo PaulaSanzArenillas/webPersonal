@@ -1,0 +1,62 @@
+/* selector universal */
+* {
+    background-color:#f5f1e9;
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+}
+
+/* selector de etiqueta */
+hgroup {
+    color: #362402;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+
+/* selector de etiqueta */
+h1 {
+    color: #362402;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* selector de clase */
+.barraNavegacion {
+    font-size: 20px;
+    color: #201705;
+    text-align: right;
+    position: fixed;
+}
+
+/* selector de etiqueta */
+footer {
+    text-align: center;
+
+}
+
+nav {
+    background-color: #011436;
+    padding: 20px;
+}
+
+nav ul li {
+    background-color: #011436; 
+}
+nav ul {
+    background-color: #011436; 
+}
+
+nav a {
+    background-color: #011436; 
+    text-decoration: none;
+    color: thistle;
+}
+
+nav a:hover {
+    letter-spacing: 2px;
+    transition: 0.5s;
+    color:tomato;
+}
+
+
+
+
+

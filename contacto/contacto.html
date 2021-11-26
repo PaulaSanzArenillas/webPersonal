@@ -1,49 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paula Sanz Arenillas</title>
     <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lancelot&family=Metal&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
-<!-- <script src="javascript.js"></script> -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+
 </head>
-<body>
+  <body>
     <header>
-        <h1>Contacto</h1>
+      <h1 class="titulo">Contacto</h1>
+      <nav>
+        <ul>
+          <li><a href="../home/index.html">Home</a></li>
+          <li><a href="../biografia/biografia.html">Biografía</a></li>
+          <li><a href="../portfolio/portfolioMain.html">Portfolio</a></li>
+          <li><a href="../contacto/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav class="barraNavegacion">
-        <a href="/home/index.html">Home</a>
-        <a href="/biografia/biografia.html">Biografía</a>
-        <a href="/portfolio/portfolioMain.html">Portfolio</a> 
-        <a href="/contacto/contacto.html">Contacto</a> 
-    </nav>
-    <p>Si tienes alguna consulta o recomendación, por favor rellena este formulario:</p>
-    <form action="">
-        <input type="text" name="nombre" placeholder="Nombre y apellidos">
-        <br>
-        <input type="text" name="email" placeholder="Email">
-        <br>
-        <textarea name="sugerencias" id="" cols="30" rows="1" placeholder="Escribe aquí tu sugerencia"></textarea>
-        <br>
-        <input type="button"  onclick="alert('¡Gracias por contactar!');" value="Enviar">
-    </form>
-    <ul>
-        Email: <a href="#">paulasanzarenillas@gmail.com</a></li>
-        <li>Teléfono de contacto: <a href="#">727753399</a></li>
-        <li>Redes sociales:
-            <ul>
-                <li><a href="https://www.instagram.com/pausalanz/">Instagram </a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-            </ul>
-        </li>
-    </ul>
+    <div class="containerContacto">
+        <p>Si tienes alguna consulta o recomendación, por favor rellena este formulario:</p>
+        <hr>
+        <form action="">
+            <input class="formularioContacto" type="text" name="nombre" placeholder="Nombre y apellidos">
+            <br>
+            <input class="formularioContacto" type="text" name="email" placeholder="Email">
+            <br>
+            <textarea class="formularioContacto" name="sugerencias" id="" cols="30" rows="1" placeholder="Escribe aquí tu sugerencia"></textarea>
+            <br>
+            <input class="buttonContacto" type="button"  onclick="alert('¡Gracias por contactar!');" value="Enviar">
+        </form>
+        <hr>
+        <ul class="redesSociales">
+            <li><a href="#">paulasanzarenillas@gmail.com</a></li>
+            <li><a href="#">727753399</a></li>
+            <hr>
+            <li>
+                
+                    <li><a href="https://www.instagram.com/pausalanz/" target="_blank">Instagram </a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.facebook.com/paula.sanzarenillas" target="_blank">Facebook</a></li>
+
+            </li>
+        </ul>
+    </div>
+   
+    
     <footer>
-        <p> Paula Sanz Arenillas &copy;</p> 
+      <div class="containerRedesSociales">
+        <a class="redesSocialesfooter" href="https://www.instagram.com/pausalanz/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+  
+        <a class="redesSocialesfooter" href="#" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+  
+        <a class="redesSocialesfooter" href="https://www.facebook.com/paula.sanzarenillas" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+      <h4> &copy; 2021 Paula Sanz Arenillas </h4>
     </footer>
-</body>
+  </body>
 </html>
+

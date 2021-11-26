@@ -1,36 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paula Sanz Arenillas</title>
     <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+
 </head>
-<body>
+  <body>
     <header>
-        <h1>Portfolio</h1>
-    </header>
-    <nav class="barraNavegacion">
-        <a href="/home/index.html">Home</a>
-        <a href="/biografia/biografia.html">Biografía</a>
-        <a href="/portfolio/portfolioMain.html">Portfolio</a> 
-        <a href="/contacto/contacto.html">Contacto</a> 
-    </nav>
-    <nav>
+      <h1 class="titulo">Portfolio</h1>
+      <nav>
         <ul>
-            <li> <a href="#escultura">Escultura</a> </li>
-            <li> <a href="#dibujo">Dibujo</a> </li>
-            <li> <a href="#grabado">Grabado</a> </li>
-            <li> <a href="#fotografia">Fotografía</a> </li>
-            <li> <a href="#librosdeartista">Libros de artista</a> </li>
+          <li><a href="../home/index.html">Home</a></li>
+          <li><a href="../biografia/biografia.html">Biografía</a></li>
+          <li><a href="../portfolio/portfolioMain.html">Portfolio</a></li>
+          <li><a href="../contacto/contacto.html">Contacto</a></li>
         </ul>
-    </nav>
+      </nav>
+    </header>
+        <div class="containerPortfolio">
+            <a href="#escultura"><input class="buttonPortfolio" type="button"  value="Escultura"></a>
+            <a href="#dibujo"><input class="buttonPortfolio" type="button"  value="Dibujo"></a>
+            <a href="#grabado"><input class="buttonPortfolio" type="button"  value="Grabado"></a>
+            <a href="#fotografia"><input class="buttonPortfolio" type="button"  value="Fotografía"></a>
+            <a href="#librosDeArtista"><input class="buttonPortfolio" type="button"  value="Libros de artista"></a>
+            <a href="#obrasExpositivas"><input class="buttonPortfolio" type="button"  value="Obras expositivas"></a>
+          </div>
+          <article class="articleLeft">
+            <h2 id="escultura">Escultura</h2>
+              <div class="containerArticle">
+                <img src="../imagenes/alabastro.jpg" alt="alabastro" width="50%"/>
+              </div>
+          </article>
+          <hr/>
+          <article class="articleRight">
+            <h2 id="dibujo">Dibujo</h2>
+              <div class="containerArticle">
+                <img src="../imagenes/dibujos.jpg" alt="dibujos" width="50%"/>
+              </div>
+          </article>
+          <hr/>
+          <article class="articleLeft">
+            <h2 id="grabado">Grabado</h2>
+              <div class="containerArticle">
+                <img src="../imagenes/amapolas.jpg" alt="amapolas" width="50%"/>
+              </div>
+          </article>
+          <hr/>
+          <article class="articleRight">
+            <h2 id="fotografia">Fotografía</h2>
+              <div class="containerArticle">
+                <img src="../imagenes/analogicabn3.jpg" alt="analogica" width="50%"/>
+              </div>
+          </article>
+          <hr/>
+          <article class="articleLeft">
+            <h2 id="librosDeArtista">Libros de artista</h2>
+              <div class="containerArticle">
+                <img src="../imagenes/36kiwis.jpg" alt="36kiwis" width="50%"/>
+              </div>
+          </article>
+          <hr/>
+          <article class="articleRight">
+            <h2 id="obrasExpositivas">Obras expositivas</h2>
+              <div class="containerArticle">
+                <video src="../imagenes/fingerprintsVideo (3).mp4" autoplay muted loop width="50%"></video>
+              </div>
+          </article>
     <footer>
-        <p> Paula Sanz Arenillas &copy;</p> 
+      <div class="containerRedesSociales">
+        <a class="redesSocialesfooter" href="https://www.instagram.com/pausalanz/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+  
+        <a class="redesSocialesfooter" href="#" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+  
+        <a class="redesSocialesfooter" href="https://www.facebook.com/paula.sanzarenillas" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+      <h4> &copy; 2021 Paula Sanz Arenillas </h4>
     </footer>
-</body>
+  </body>
 </html>
+  

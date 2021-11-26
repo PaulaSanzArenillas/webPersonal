@@ -1,62 +1,290 @@
-/* selector universal */
-* {
-    background-color:#f5f1e9;
-    font-family: 'Roboto Slab', serif;
-    margin: 0px;
+html , body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto Slab";
+    background-color: #fff6fd;
 }
 
-/* selector de etiqueta */
-hgroup {
-    color: #362402;
-    font-family: 'Roboto Slab', serif;
-    font-size: 25px;
+header {
+    background-color: #808080;
+    color: white;
+    width: 100%;
+    height: 10%;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-/* selector de etiqueta */
-h1 {
-    color: #362402;
-    font-family: 'Roboto Slab', serif;
+header nav ul li a {
+    transition: .5s;
 }
 
-/* selector de clase */
-.barraNavegacion {
-    font-size: 20px;
-    color: #201705;
-    text-align: right;
-    position: fixed;
+header nav ul li a:hover {
+    color:#c07ab7;
+    letter-spacing: 2px;
 }
 
-/* selector de etiqueta */
+
+.titulo {
+    font-size: 2em ;
+}
+
+h4 {
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
 footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.redesSocialesfooter {
+    display: inline;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+
+.redesSocialesfooter i {
+    /* text-decoration: none; */
+    color:white;
+    transition: 0.5s;
+}
+
+.redesSocialesfooter i:visited {
+    text-decoration: none;
+    color:white;
+}
+
+.redesSocialesfooter i:hover {
+    color: #c07ab7;
+    font-size: 1.5em;
+}
+
+.containerHome {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttonHome {
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background-image: url(../imagenes/fragmentosdark.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+}
+
+.buttonHome:hover {
+    color:#c07ab7;
+    letter-spacing: 2px;
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+  
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.containerBiografia {
+    width: 100%;
+    height: 80%;
+    padding: 0;
+}
+
+.containerBiografiaUno {
+    width: 60%;
+    height: 80%;
+    margin: 0;
+    padding: 5%;
+    float: left;
+}
+
+.containerBiografiaDos {
+    width: 20%;
+    height: 80%;
+    margin: 0;
+    padding: 5%;
+    float: left;;
+}
+
+.containerBiografiaUno a {
+    color: #c07ab7;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.containerBiografiaUno a:hover {
+    color: #535353;
+}
+
+img, video {
+    border-radius: 10px;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+.containerPortfolio {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttonPortfolio {
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    font-size: 1.2em;
+    color: black; 
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background-image: url(../imagenes/aguafuerte.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+}
+
+.buttonPortfolio:hover {
+    color: #c07ab7;
+    letter-spacing: 2px;
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+
+}
+
+.articleLeft {
+    text-align: left;
+    margin: 2%;
+}
+
+.articleRight {
+    text-align: right;
+    margin: 2%;
+}
+
+.containerContacto {
+    width: 100%;
+    height: 80%;
     text-align: center;
 
 }
 
-nav {
-    background-color: #011436;
-    padding: 20px;
+.containerContacto p {
+    margin: 0;
+    padding-top: 5%;
 }
 
-nav ul li {
-    background-color: #011436; 
-}
-nav ul {
-    background-color: #011436; 
+.containerContacto hr {
+    width: 0%;
 }
 
-nav a {
-    background-color: #011436; 
-    text-decoration: none;
-    color: thistle;
+.formularioContacto {
+    border: none;
+    background-color: #cacaca;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
 }
 
-nav a:hover {
-    letter-spacing: 2px;
+.formularioContacto:focus {
     transition: 0.5s;
-    color:tomato;
+    background-color: #c07ab7;
+    opacity: 60%;  /*???*/
+   
+}
+ .formularioContacto::placeholder:focus {
+    color:#535353; /*???*/
+ }
+
+.buttonContacto {
+    border: none;
+    background-color: #969696;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
 }
 
+.buttonContacto:hover {
+    transition: 0.5s;
+    padding: 10px;
+    font-size: 1.2em;
+}
 
+.buttonContacto:active {
+    background-color: #e9bbe3;
+}
 
+.redesSociales li {
+    list-style: none;
+    
+}
 
+.redesSociales a {
+    text-decoration: none;
+    color: #c07ab7;
+    transition: 0.5s;
+}
 
+.redesSociales a:hover {
+    color:#535353;
+}
+
+.redesSociales li a {
+    text-decoration: none;
+    text-align: center;
+}
